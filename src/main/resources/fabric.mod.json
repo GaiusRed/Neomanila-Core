@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "neomanila_core",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Neomanila Core",
+  "description": "A fabric mod for the Neomanila Modpack.",
   "authors": [
-    "Me!"
+    "erik@gaius.red"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://modrinth.com/modpack/neomanila",
+    "sources": "https://github.com/GaiusRed/Neomanila-Core"
   },
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/neomanila_core/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "red.gaius.neomanila_core.NeomanilaCoreMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "neomanila_core.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.6",
